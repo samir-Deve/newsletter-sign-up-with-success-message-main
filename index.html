@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <!-- Sign-up form start -->
+  <div class="wrapper">
+    <div class="card-1">
+      <div class="img_cont">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+      </div>
+      <div class="form_cont">
+        <h2 class="header">
+          Stay updated!
+        </h2>
+        <p class="para">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul>
+          <li>  Product discovery and building what matters</li>
+          <li>  Measuring to ensure updates are a success</li>
+          <li>  And much more!</li>
+        </ul>
+        <form >
+          <div class="input">
+            <div class="label_errorMessage">
+              <label for="email-address">Email Address</label>
+              <p class="errorMessage"></p>
+            </div>
+            <input type="email" name="email" id="email" placeholder="email@company.com" autofocus>
+          </div>
+          <button class="button"> Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+     </div>
+
+    <!-- Sign-up form end -->
+    <!-- Success message start-->
+
+     <div class="card-2 hide">
+      <div class="upper">
+        <div class="success_icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg>
+        </div>
+        <h2 class="success_header">
+          Thanks for subscribing!
+        </h2>
+        <p class="confirm_message_text">
+          A confirmation email has been sent to ash@loremcompany.com. 
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+      </div>
+      <div class="button">
+        <button>Dismiss message</button>
+      </div>
+     </div>
+        <!--Success message end -->
+     <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
